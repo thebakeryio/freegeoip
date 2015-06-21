@@ -1,1 +1,1 @@
-web: freegeoip -addr=":$PORT"
+web: freegeoip -addr=":$PORT" -public ./cmd/freegeoip/public -use-x-forwarded-for -silent
